@@ -4,9 +4,9 @@ node {
       git url: 'https://github.com/Srinath2898/Devopspractice.git', branch: 'main'
       mvnHome = tool 'maven'
    }
-   stage ('CodeScan') {
-      sh "'${mvnHome}/bin/mvn' sonar:sonar"
-  }
+//    stage ('CodeScan') {
+//       sh "'${mvnHome}/bin/mvn' sonar:sonar"
+//   }
   stage ('Clean') {
       sh "'${mvnHome}/bin/mvn' clean"
   }
