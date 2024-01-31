@@ -57,7 +57,7 @@ pipeline {
         }
         stage('Stage-10 : smoketest') { 
             steps {
-                sh 'mvn curl --retry-delay 10 --retry 5 "http://54.236.18.91:8080/cbapps"'
+                sh 'curl --retry-delay 10 --retry 5 "http://54.236.18.91:8080/cbapps"'
             }
         }
     }
