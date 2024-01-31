@@ -9,10 +9,10 @@
     <name>Cloud Binary - Sample Spring MVC Application</name>
 
     <properties>
-        <!-- <junit.platform.version>1.2.0</junit.platform.version>
+        <junit.platform.version>1.2.0</junit.platform.version>
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target> -->
+        <maven.compiler.target>11</maven.compiler.target>
 
         <sonar.host.url>http://44.200.58.124:9000</sonar.host.url>
         <sonar.organization>Javacode</sonar.organization>
@@ -73,7 +73,7 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.3.3</version>
         </dependency>
-        <!-- <dependency>
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.jupiter.version}</version>
@@ -96,7 +96,7 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
             <scope>test</scope>
-        </dependency> -->
+        </dependency>
     </dependencies>
 
     <build>
@@ -116,7 +116,7 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.22.0</version>
-                    <!-- <dependencies>
+                    <dependencies>
                         <dependency>
                             <groupId>org.junit.platform</groupId>
                             <artifactId>junit-platform-surefire-provider</artifactId>
@@ -127,7 +127,7 @@
                             <artifactId>junit-jupiter-engine</artifactId>
                             <version>${junit.jupiter.version}</version>
                         </dependency>
-                    </dependencies> -->
+                    </dependencies>
                 </plugin>
             </plugins>
         </pluginManagement>
